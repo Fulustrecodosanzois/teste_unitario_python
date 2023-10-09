@@ -5,6 +5,7 @@ class Funcionario:
         self.nome = nome
         self.cargo = cargo
         self.salario = salario
+
     def dados(self):
         return f"{self.nome} seu cargo é {self.cargo} e seu salário é {self.salario}"
     
@@ -23,5 +24,5 @@ class Funcionario:
         return f"promovido para {self.cargo} com salario de R$ {self.salario}"
     
     def calcularBonus(self):
-        bonus = self.salario * 0.1 #claculo do salario
+        bonus = self.salario * 0.1 #calculo do salario
         return bonus
